@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets - never commit these
+.env
+.env.*
+!.env.example
+
+# Extraction cache
+.cache/
+
+# Local extraction output
+output.json
